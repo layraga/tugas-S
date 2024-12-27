@@ -1,0 +1,137 @@
+/* Gaya untuk seluruh elemen dalam halaman */
+body {
+  font-family: Arial, sans-serif; /* Menggunakan font Arial atau font sans-serif lainnya */
+  margin: 0; /* Menghilangkan margin default pada body */
+  padding: 0; /* Menghilangkan padding default pada body */
+  background-color: #f4f4f4; /* Mengatur warna latar belakang menjadi abu-abu muda */
+}
+
+/* Gaya untuk container utama */
+.container {
+  width: 90%; /* Lebar container sebesar 90% dari lebar layar */
+  max-width: 1200px; /* Lebar maksimum container adalah 1200px */
+  margin: 30px auto; /* Margin atas bawah 30px, margin kiri kanan otomatis (center) */
+  background: white; /* Warna latar belakang putih */
+  border-radius: 8px; /* Membuat sudut container sedikit membulat */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan pada container */
+  padding: 20px; /* Memberikan padding di dalam container */
+}
+
+h1 {
+  text-align: center; /* Menyelaraskan teks ke tengah */
+  color: #333; /* Warna teks */
+  margin-bottom: 20px; /* Margin bawah 20px pada judul */
+}
+
+/* Gaya untuk teks */
+.text {
+  text-align: center; /* Menyelaraskan teks ke tengah */
+  margin-bottom: 20px; /* Memberikan margin bawah 20px pada teks */
+}
+
+/* Gaya untuk tabel */
+table {
+  width: 100%; /* Lebar tabel sebesar 100% dari lebar container */
+  border-collapse: collapse; /* Menggabungkan border pada sel-sel tabel */
+  margin-bottom: 20px; /* Memberikan margin bawah 20px pada tabel */
+}
+
+
+
+table, th, td {
+  border: 1px solid #ddd; /* Memberikan border 1px solid berwarna abu-abu pada tabel, header, dan data */
+  text-align: left; /* Menyelaraskan teks pada header dan data ke kiri */
+}
+
+th, td {
+  border: 1px solid #ddd; /* Memberikan border 1px solid berwarna abu-abu pada tabel, header, dan data */
+  text-align: left; /* Menyelaraskan teks pada header dan data ke kiri */
+  padding: 12px; /* Memberikan padding 12px pada header dan data */
+}
+
+th {
+  background-color: #007BFF; /* Warna latar belakang header tabel */
+  color: white; /* Warna teks header tabel */
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2; /* Warna latar belakang untuk baris genap */
+}
+
+tr:hover {
+  background-color: #e0e0e0; /* Warna latar belakang saat hover pada baris */
+}
+
+/* Gaya untuk tombol */
+.button-edit, .button-delete, .btn-tambah {
+  display: inline-block; /* Menampilkan tombol sebagai elemen inline-block */
+  padding: 10px 15px; /* Memberikan padding pada tombol */
+  margin: 5px; /* Margin untuk jarak antar tombol */
+  background-color: #007BFF; /* Warna latar belakang tombol biru */
+  color: white; /* Warna teks tombol putih */
+  text-decoration: none; /* Menghilangkan dekorasi teks pada tombol */
+  border-radius: 5px; /* Membuat sudut tombol sedikit membulat */
+  transition: background-color 0.3s; /* Efek transisi saat hover */
+}
+
+.button-edit:hover, .button-delete:hover, .btn-tambah:hover {
+  background-color: #0056b3; /* Warna latar belakang saat hover pada tombol */
+}
+
+/* Gaya untuk pesan kesalahan */
+.error {
+  color: red; /* Warna teks merah untuk pesan kesalahan */
+  text-align: center; /* Menyelaraskan teks ke tengah */
+  margin-bottom: 10px; /* Margin bawah 10px pada pesan kesalahan */
+}
+
+/* Gaya untuk container pengguna (mungkin untuk gambar atau elemen lain) */
+.penguin-container {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.pengguna-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.pengguna-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.pengguna-container input {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.pengguna-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.pengguna-container button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-bottom: 10px;
+}
